@@ -18,3 +18,23 @@
         <img src="http://img.shields.io/badge/swift-5.1-brightgreen.svg" alt="Swift 5.1">
     </a>
 </p>
+
+## How to Use
+
+1. build
+
+```
+$ vapor build
+```
+
+2. run server
+
+```
+$ vapor run
+```
+
+3. test
+
+```
+$ curl -X POST localhost:8080/self-casher
+```
